@@ -1,0 +1,23 @@
+ Command line instructions
+Git global setup
+
+git config --global user.name "Gonçalo Leão"
+git config --global user.email "up201406036@gcloud.fe.up.pt"
+
+Create a new repository
+
+git clone https://gitlab.com/up201406036/SOPE-P2.git
+cd SOPE-P2
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder or Git repository
+
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/up201406036/SOPE-P2.git
+git add .
+git commit
+git push -u origin master
